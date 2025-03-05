@@ -1,0 +1,878 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+
+		<!--layout-->
+		<div class="wide_layout bg_light">
+			
+			<!--page title-->
+			<section class="page_title translucent_bg_purple image_fixed image_bg_15 t_align_c relative wrapper">
+				<div class="container">
+					<h1 class="color_light fw_light m_bottom_5">1 Column Classic Blog With Right Sidebar</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_grey_light_3 d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Pages</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="f_xs_none"><a class="color_grey_light_3 d_inline_m">1 Column With Right Sidebar</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<div class="section_offset">
+				<div class="container">
+					<div class="row">
+						<section class="col-lg-9 col-md-9 col-sm-9 m_xs_bottom_30">
+							<!--post-->
+							<article class="clearfix m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="blog_side_container w_sm_auto f_left f_xs_none m_xs_bottom_5">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button r_corners bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">27</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-picture-1 d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">176</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<a href="blog_single_image_post.html" class="d_block wrapper r_corners m_bottom_20">
+										<img src="images/blog_img_3.jpg" alt="">
+									</a>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_image_post.html" class="color_dark tr_all">Image Post</a></h3>
+										<ul class="dotted_list m_bottom_5 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">35</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et. </p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<!--post-->
+							<article class="m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="m_xs_bottom_5 f_left f_xs_none w_sm_auto blog_side_container">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 r_corners blog_side_button bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">23</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-picture d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">45</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<div class="m_bottom_20 r_corners wrapper simple_slideshow relative">
+										<ul class="slides">
+											<li><img src="images/blog_img_4.jpg" alt=""></li>
+											<li><img src="images/blog_img_5.jpg" alt=""></li>
+											<li><img src="images/blog_img_6.jpg" alt=""></li>
+										</ul>
+									</div>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_image_slideshow_post.html" class="color_dark tr_all">Image Slideshow Post</a></h3>
+										<ul class="dotted_list m_bottom_5 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">9</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<!--post-->
+							<article class="m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="f_left blog_side_container w_sm_auto f_xs_none m_xs_bottom_5">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 r_corners blog_side_button bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">19</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-video d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">982</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<div class="iframe_video_wrap m_bottom_20">
+										<iframe src="http://player.vimeo.com/video/78329678"></iframe>
+									</div>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_video_post.html" class="color_dark tr_all">Video Post</a></h3>
+										<ul class="dotted_list m_bottom_5 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">0</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. </p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<!--post-->
+							<article class="m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="f_left blog_side_container w_sm_auto f_xs_none m_xs_bottom_5">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button r_corners bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">15</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-music-1 d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">2</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<iframe height="120" class="w_full m_bottom_20" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142827697&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_audio_post.html" class="color_dark tr_all">Audio Post</a></h3>
+										<ul class="dotted_list m_bottom_5 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,nsectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<!--post-->
+							<article class="m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="f_left blog_side_container w_sm_auto f_xs_none m_xs_bottom_5">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button r_corners bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">11</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-quote d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">69</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<blockquote class="r_corners relative type_3 fs_large color_dark m_bottom_20 bg_light_3">
+										<p class="m_bottom_10"><i>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam</i></p>
+										<p class="m_bottom_10"><i>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </i></p>
+										<b>John Doe</b>
+									</blockquote>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_audio_post.html" class="color_dark tr_all">Blockquote Post</a></h3>
+										<ul class="dotted_list m_bottom_10 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+										</ul>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<!--post-->
+							<article class="m_bottom_50 m_xs_bottom_30 blog_post">
+								<!--date,category,likes-->
+								<div class="f_left blog_side_container w_sm_auto f_xs_none m_xs_bottom_5">
+									<!--date-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 r_corners blog_side_button bg_color_purple color_light not_hover t_align_c blog_date m_bottom_5">
+										<span class="d_block day_of_the_month fw_light">6</span>
+										<span class="d_block tt_uppercase fs_medium">Dec</span>
+									</a>
+									<!--category-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c color_purple bg_color_purple_hover color_light_hover bg_light_3 r_corners m_bottom_5 tr_all">
+										<i class="icon-link d_inline_m"></i>
+									</a>
+									<!--likes-->
+									<a href="#" class="d_block d_xs_inline_b m_xs_right_5 blog_side_button vc_child t_align_c border_grey r_corners tr_all color_grey color_red_hover">
+										<span class="d_inline_m">
+											<span class="d_block"><i class="icon-heart-empty color_grey_light_2 tr_all d_block m_top_5"></i></span>
+											<i class="fs_medium">14</i>
+										</span>
+									</a>
+								</div>
+								<!--post content-->
+								<figure>
+									<a href="#" class="d_block r_corners border_color_purple link_container bg_color_purple_hover color_light_hover m_bottom_20 color_purple tr_all t_sm_align_c">
+										<span class="d_inline_m icon_wrap_size_3 color_purple circle m_right_15 m_sm_right_0 tr_all m_sm_bottom_10">
+											<i class="icon-link"></i>
+										</span>
+										<span class="fs_large d_inline_m d_sm_block">Awesome templates on Themeforest. Check them out!</span>
+									</a>
+									<figcaption>
+										<h3 class="fw_light"><a href="blog_single_link_post.html" class="color_dark tr_all">Link Post</a></h3>
+										<ul class="dotted_list m_bottom_5 color_grey_light_2">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>By admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus. </p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+							<div class="clearfix">
+								<ul class="hr_list fs_medium paginations t_align_c f_left f_mxs_none m_mxs_bottom_10">
+									<li>
+										<a href="#" class="rc_first_hr color_dark">1</a>
+									</li>
+									<li>
+										<a href="#" class=" color_dark">2</a>
+									</li>
+									<li>
+										<a href="#" class="rc_last_hr color_dark">3</a>
+									</li>
+								</ul>
+								<div class="f_right clearfix f_mxs_none">
+									<a href="#" class="button_type_2 color_dark r_corners transparent bg_color_purple_hover fs_medium prev_page_button f_left m_right_5">Prev Page</a>
+									<a href="#" class="button_type_2 color_dark r_corners transparent bg_color_purple_hover fs_medium next_page_button f_left m_right_5">Next Page</a>
+								</div>
+							</div>
+						</section>
+						<aside class="col-lg-3 col-md-3 col-sm-3">
+							<div class="m_bottom_40 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Text Widget</h5>
+								<p class="fw_light">Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis.</p>
+							</div>
+							<div class="tabs m_bottom_50 m_xs_bottom_30">
+								<!--tabs nav-->
+								<ul class="tabs_nav type_3 hr_list d_inline_b d_md_block m_bottom_30 m_xs_bottom_20">
+									<li class="f_md_none"><a href="#popular" class="color_dark d_block n_sc_hover tr_all_medium">Popular</a></li>
+									<li class="f_md_none"><a href="#recent" class="color_dark d_block n_sc_hover tr_all_medium">Recent</a></li>
+									<li class="f_md_none"><a href="#comments" class="color_dark d_block n_sc_hover tr_all_medium">Comments</a></li>
+								</ul>
+								<!--tabs content-->
+								<div id="popular">
+									<!--popular-->
+									<article class="clearfix m_bottom_35 m_xs_bottom_20">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_1.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Proin dictum</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-picture"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 26, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>3D</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Graphic Design</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+									<article class="clearfix m_bottom_35 m_xs_bottom_20">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_2.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Aliquam dapibus tincidunt metus</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-doc-text-inv"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 29, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>Mobile</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Technology</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+									<article class="clearfix">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_3.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Donec sagittis euismod purus</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-video"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 25, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>Video</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Music</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+								</div>
+								<div id="recent">
+									<!--recent-->
+									<article class="clearfix m_bottom_35 m_xs_bottom_20">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_3.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Donec sagittis euismod purus</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-video"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 25, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>Video</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Music</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+									<article class="clearfix m_bottom_35 m_xs_bottom_20">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_2.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Aliquam dapibus tincidunt metus</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-doc-text-inv"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 29, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>Mobile</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Technology</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+									<article class="clearfix">
+										<a href="#" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
+											<img src="images/popular_img_1.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark d_block lh_medium m_bottom_5"><b>Proin dictum</b></a>
+										<ul class="dotted_list color_grey_light_2 article_stats">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-picture"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>June 26, 2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_small color_grey">
+													<i>3D</i>
+												</a>,
+												<a href="#" class="fs_small color_grey">
+													<i>Graphic Design</i>
+												</a>
+											</li>
+										</ul>
+									</article>
+								</div>
+								<div id="comments">
+									<!--comments-->
+									<ul class="hr_list vr_list_type_2 fw_light color_grey lh_medium">
+										<li class="m_bottom_15">
+											<i class="icon-comment-empty m_right_8 fs_large color_grey_light_2 d_block f_left"></i>
+											<a href="#" class="color_grey">admin</a> on <a href="#" class="color_dark"><b>Proin dictum</b></a>
+										</li>
+										<li class="m_bottom_15">
+											<i class="icon-comment-empty m_right_8 fs_large color_grey_light_2 d_block f_left"></i>
+											<a href="#" class="color_grey">admin</a> on <a href="#" class="color_dark"><b>Aliquam dapibus tincidunt metus</b></a>
+										</li>
+										<li class="m_bottom_15">
+											<i class="icon-comment-empty m_right_8 fs_large color_grey_light_2 d_block f_left"></i>
+											<a href="#" class="color_grey">admin</a> on <a href="#" class="color_dark"><b>Donec sagittis euismod purus</b></a>
+										</li>
+										<li class="m_bottom_15">
+											<i class="icon-comment-empty m_right_8 fs_large color_grey_light_2 d_block f_left"></i>
+											<a href="#" class="color_grey">admin</a> on <a href="#" class="color_dark"><b>Lorem ipsum dolor sit</b></a>
+										</li>
+										<li>
+											<i class="icon-comment-empty m_right_8 fs_large color_grey_light_2 d_block f_left"></i>
+											<a href="#" class="color_grey">admin</a> on <a href="#" class="color_dark"><b>Nam elit agna,endrerit sit amet tincidunt ac</b></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--advertising area-->
+							<div class="advertising_area t_align_c bg_light_2 color_grey m_bottom_45 m_xs_bottom_30">
+								<span class="tt_uppercase translucent">Advertisment</span>
+								<div class="tt_uppercase bg_light_3 vc_child"><div class="d_inline_m translucent fw_light lh_medium">Advertising Area<br><span class="fs_medium">250 x 250</span></div></div>
+							</div>
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Categories</h5>
+								<ul class="vr_list_type_4 color_dark fw_light">
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Web design
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Web development
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Marketing
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Tips
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Resources
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_23">Popular Video</h5>
+								<div class="iframe_video_wrap">
+									<iframe src="http://player.vimeo.com/video/71476743"></iframe>
+								</div>
+							</div>
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_23">Tags</h5>
+								<!--tags list-->
+								<ul class="hr_list tags_list">
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">interviews</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">design</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">development</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">marketing</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">press</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">projects</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">resources</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tips</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tricks</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">web</a></li>
+								</ul>
+							</div>
+							<!--advertising area-->
+							<div class="advertising_area type_2 t_align_c bg_light_2 color_grey m_bottom_45 m_xs_bottom_30">
+								<span class="tt_uppercase translucent">Advertisment</span>
+								<div class="advertising_row">
+									<div class="clearfix">
+										<div class="half_column f_left">
+											<div class="tt_uppercase bg_light_3 vc_child">
+												<div class="d_inline_m translucent"><span class="d_sm_none d_xs_block">Advertising<br>Area<br></span>125 x125</div>	
+											</div>
+										</div>
+										<div class="half_column f_right">
+											<div class="tt_uppercase bg_light_3 vc_child">
+												<div class="d_inline_m translucent"><span class="d_sm_none d_xs_block">Advertising<br>Area<br></span>125 x125</div>	
+											</div>
+										</div>
+									</div>
+									<div class="clearfix">
+										<div class="half_column f_left">
+											<div class="tt_uppercase bg_light_3 vc_child">
+												<div class="d_inline_m translucent"><span class="d_sm_none d_xs_block">Advertising<br>Area<br></span>125 x125</div>	
+											</div>
+										</div>
+										<div class="half_column f_right">
+											<div class="tt_uppercase bg_light_3 vc_child">
+												<div class="d_inline_m translucent"><span class="d_sm_none d_xs_block">Advertising<br>Area<br></span>125 x125</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--latest projects-->
+							<div class="m_bottom_40 m_xs_bottom_30">
+								<!--title & nav-->
+								<div class="clearfix m_bottom_25 m_sm_bottom_10 m_xs_bottom_20">
+									<h5 class="fw_light f_left f_sm_none f_xs_left color_dark m_sm_bottom_5 m_xs_bottom_0">Latest Projects</h5>
+									<div class="f_right f_sm_none f_xs_right clearfix">
+										<button class="icon_wrap_size_0 circle color_grey_light f_left m_right_5 latest_projects_prev color_pink_hover tr_all">
+											<i class="icon-angle-left fs_large"></i>
+										</button>
+										<button class="icon_wrap_size_0 circle color_grey_light f_left m_right_5 latest_projects_next color_pink_hover tr_all">
+											<i class="icon-angle-right fs_large"></i>
+										</button>
+									</div>
+								</div>
+								<!--carousel-->
+								<div class="owl-carousel" data-nav="latest_projects_" data-plugin-options='{"transitionStyle":"backSlide"}'>
+									<figure>
+										<!--image-->
+										<div class="popup_wrap relative r_corners wrapper m_bottom_20 m_sm_bottom_10 m_xs_bottom_20 d_xs_inline_b d_mxs_block">
+											<img src="images/portfolio_img_2.jpg" alt="">
+											<div class="popup_buttons tr_all_long w_sm_full t_sm_align_c">
+												<a href="images/portfolio_img_2.jpg" data-group="latest_projects" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+													<i class="icon-plus"></i>
+												</a>
+												<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+													<i class="icon-link"></i>
+												</a>
+											</div>
+										</div>
+										<!--title-->
+										<figcaption>
+											<h6 class="m_bottom_3"><a href="#" class="color_dark tr_all">Donec sagittis euismod purus</a></h6>
+											<ul class="dotted_list color_grey_light_2">
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_grey_light_2 fs_small">
+														<i class="icon-picture"></i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="fs_medium color_grey">
+														<i>Mobile</i></a>, 
+													<a href="#" class="fs_medium color_grey"><i>Technology</i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_red_hover">
+														<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">60</i>
+													</a>
+												</li>
+											</ul>
+										</figcaption>
+									</figure>
+									<figure>
+										<!--image-->
+										<div class="popup_wrap relative r_corners wrapper m_bottom_20 m_sm_bottom_10 m_xs_bottom_20 d_xs_inline_b d_mxs_block">
+											<img src="images/home_img_2.jpg" alt="">
+											<div class="popup_buttons tr_all_long w_sm_full t_sm_align_c">
+												<a href="images/home_img_5.jpg" data-group="latest_projects" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+													<i class="icon-plus"></i>
+												</a>
+												<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+													<i class="icon-link"></i>
+												</a>
+											</div>
+										</div>
+										<!--title-->
+										<figcaption>
+											<h6 class="m_bottom_3"><a href="#" class="color_dark tr_all">Set amet lorem</a></h6>
+											<ul class="dotted_list color_grey_light_2">
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_grey_light_2 fs_small">
+														<i class="icon-picture"></i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="fs_medium color_grey">
+														<i>Mobile</i></a>, 
+													<a href="#" class="fs_medium color_grey"><i>Technology</i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_red_hover">
+														<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">25</i>
+													</a>
+												</li>
+											</ul>
+										</figcaption>
+									</figure>
+									<figure>
+										<!--image-->
+										<div class="popup_wrap relative r_corners wrapper m_bottom_20 m_sm_bottom_10 m_xs_bottom_20 d_xs_inline_b d_mxs_block">
+											<img src="images/home_img_3.jpg" alt="">
+											<div class="popup_buttons tr_all_long w_sm_full t_sm_align_c">
+												<a href="images/home_img_6.jpg" data-group="latest_projects" data-title="Title 3" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+													<i class="icon-plus"></i>
+												</a>
+												<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+													<i class="icon-link"></i>
+												</a>
+											</div>
+										</div>
+										<!--title-->
+										<figcaption>
+											<h6 class="m_bottom_3"><a href="#" class="color_dark tr_all">Vivamus eget nibh</a></h6>
+											<ul class="dotted_list color_grey_light_2">
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_grey_light_2 fs_small">
+														<i class="icon-picture"></i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="fs_medium color_grey">
+														<i>Mobile</i></a>, 
+													<a href="#" class="fs_medium color_grey"><i>Technology</i>
+													</a>
+												</li>
+												<li class="m_right_15 relative d_inline_m">
+													<a href="#" class="color_red_hover">
+														<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">110</i>
+													</a>
+												</li>
+											</ul>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+							<!--calendar-->
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Calendar</h5>
+								<div class="r_corners border_grey calendar_container fs_medium">
+									<div class="relative calendar_nav">
+										<button class="icon_wrap_size_0 circle color_grey_light color_pink_hover tr_all" data-calendar-nav="prev">
+											<i class="icon-angle-left fs_large"></i>
+										</button>
+										<div class="month_and_year t_align_c color_dark"></div>
+										<button class="icon_wrap_size_0 circle color_grey_light color_pink_hover tr_all" data-calendar-nav="next">
+											<i class="icon-angle-right fs_large"></i>
+										</button>
+									</div>
+									<div id="calendar"></div>
+								</div>
+							</div>
+							<!--archives-->
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Archives</h5>
+								<ul class="vr_list_type_4 color_dark fw_light">
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											December 2013
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											November 2013
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											October 2013
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											September 2013
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!--flickr-->
+							<div class="m_xs_bottom_0">
+								<h5 class="fw_light color_dark m_bottom_23">Flickr Photo Stream</h5>
+								<ul class="flickr_list clearfix" data-flickr-options='{"qstrings":{"id" : "76745153@N04"}}' data-flickr-group="flickr_1"></ul>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+			<hr class="divider_type_2">
+			
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+		
+{% endblock content %}

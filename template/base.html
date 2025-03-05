@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home - Illusion</title>
+		<!--meta info-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="author" content="">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="{% static "images/fav.ico" %}">
+		<!--web fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+		<!--libs css-->
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "plugins/owl-carousel/owl.carousel.css" %}">
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "plugins/owl-carousel/owl.transitions.css" %}">
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "plugins/jackbox/css/jackbox.min.css" %}">
+		<link rel="stylesheet" type="text/css" media="screen" href="{% static "plugins/rs-plugin/css/settings.css" %}">
+		 
+		<!--theme css-->
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "css/bootstrap.min.css" %}">
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "css/theme-animate.css" %}">
+		<link rel="stylesheet" type="text/css" media="all" href="{% static "css/style.css" %}">
+		<!--head libs-->
+		<script src="{% static "js/jquery-2.1.0.min.js" %}"></script>
+		<script src="{% static "plugins/jquery.queryloader2.min.js" %}"></script>
+		<script src="{% static "plugins/modernizr.js" %}"></script>
+		<script>
+			$('html').addClass('d_none');
+			$(document).ready(function(){
+				$('html').show();
+				$("body").queryLoader2({
+					backgroundColor: '#fff',
+					barColor : '#35eef6',
+					barHeight: 4,
+					percentage:true,
+					deepSearch:true,
+					minimumTime:1000
+				});
+			});
+		</script>
+</head>
+<body>
+  {% include "layouts/header.html" %}
+  {% block content %}{% endblock %}  
+  {% include "layouts/footer.html" %}
+    <script src="{% static "plugins/rs-plugin/js/jquery.themepunch.plugins.min.js" %}"></script>
+		<script src="{% static "plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" %}"></script>
+		<script src="{% static "plugins/jquery.appear.js" %}"></script>
+		<script src="{% static "plugins/afterresize.min.js" %}"></script>
+		<script src="{% static "plugins/jquery.easing.1.3.js" %}"></script>
+		<script src="{% static "plugins/jquery.easytabs.min.js" %}"></script>
+		<script src="{% static "plugins/jackbox/js/jackbox-packed.min.js" %}"></script>
+		<script src="{% static "plugins/twitter/jquery.tweet.min.js" %}"></script>
+		<script src="{% static "plugins/owl-carousel/owl.carousel.min.js" %}"></script>
+		<script src="{% static "plugins/flickr.js" %}"></script>
+		<script src="{% static "js/theme.plugins.js" %}"></script>
+		<script src="{% static "js/theme.js" %}"></script>
+</body>
+</html>
