@@ -1,0 +1,475 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		 
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+	
+		<div class="wide_layout bg_light">
+			<!--header markup-->
+			
+			<!--page title-->
+			<section class="page_title translucent_bg_purple image_fixed t_align_c relative wrapper image_bg_15">
+				<div class="container">
+					<h1 class="color_light fw_light m_bottom_5">4 Column Grid Blog</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_grey_light_3 d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Pages</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="f_xs_none"><a class="color_grey_light_3 d_inline_m">4 Columns</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<div class="section_offset">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<a href="blog_single_image_post.html" class="d_block wrapper r_corners m_bottom_23">
+										<img src="images/blog_img_3.jpg" alt="">
+									</a>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_image_post.html" class="color_dark tr_all">Image Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-picture-1"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 27,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">35</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">176</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<div class="m_bottom_23 r_corners wrapper simple_slideshow relative">
+										<ul class="slides">
+											<li><img src="images/blog_img_4.jpg" alt=""></li>
+											<li><img src="images/blog_img_5.jpg" alt=""></li>
+											<li><img src="images/blog_img_6.jpg" alt=""></li>
+										</ul>
+									</div>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_image_slideshow_post.html" class="color_dark tr_all">Image Slideshow Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-picture"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 23,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">9</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">45</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<div class="iframe_video_wrap m_bottom_23">
+										<iframe src="http://player.vimeo.com/video/78329678"></iframe>
+									</div>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_video_post.html" class="color_dark tr_all">Video Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-video"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 19,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">0</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">982</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<iframe height="120" class="w_full m_bottom_23" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142827697&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_audio_post.html" class="color_dark tr_all">Audio Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-music-1"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 15,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">2</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<blockquote class="r_corners relative type_3 fs_large color_dark m_bottom_23 bg_light_3">
+										<p class="m_bottom_10"><i>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet leo.Vestibulum iaculis lacinia est.</i></p>
+										<b>John Doe</b>
+									</blockquote>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_audio_post.html" class="color_dark tr_all">Blockquote Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-quote"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 11,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">69</i>
+												</a>
+											</li>
+										</ul>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<a href="#" class="d_block r_corners border_color_purple link_container bg_color_purple_hover color_light_hover m_bottom_23 color_purple tr_all t_md_align_c">
+										<span class="d_inline_m icon_wrap_size_3 color_purple circle m_right_15 m_md_right_0 tr_all m_md_bottom_10">
+											<i class="icon-link"></i>
+										</span>
+										<span class="fs_large d_inline_m d_md_block">Awesome templates<br>on Themeforest.<br> Check them out!</span>
+									</a>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_link_post.html" class="color_dark tr_all">Link Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-link"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 6,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">7</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">14</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<a href="blog_single_image_post.html" class="d_block wrapper r_corners m_bottom_23">
+										<img src="images/blog_img_7.jpg" alt="">
+									</a>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_image_post.html" class="color_dark tr_all">Image Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-picture-1"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 7,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Mobile</i></a>,
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">35</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">176</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 m_bottom_50 m_xs_bottom_30">
+							<!--post-->
+							<article>
+								<!--post content-->
+								<figure>
+									<div class="iframe_video_wrap m_bottom_23">
+										<iframe src="http://www.youtube.com/embed/K1_JAzfe--4"></iframe>
+									</div>
+									<figcaption>
+										<h6 class="m_bottom_8"><a href="blog_single_video_post.html" class="color_dark tr_all">Video Post</a></h6>
+										<ul class="dotted_list m_bottom_8 color_grey_light_2 lh_ex_small">
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey_light_2 fs_small">
+													<i class="icon-video"></i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>December 2,2013</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_grey fs_small">
+													<i>by admin</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="fs_medium color_grey"><i>Technology</i></a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_scheme_hover">
+													<i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">0</i>
+												</a>
+											</li>
+											<li class="m_right_15 relative d_inline_m">
+												<a href="#" class="color_red_hover">
+													<i class="icon-heart-empty-1 m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all">982</i>
+												</a>
+											</li>
+										</ul>
+										<p class="fw_light m_bottom_12">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu.</p>
+										<a href="#" class="color_purple d_inline_b color_pink_hover d_block m_right_20 fw_light">
+											<span class="d_inline_m m_right_5 icon_wrap_size_0 circle color_grey_light tr_all">
+												<i class="icon-angle-right"></i>
+											</span>
+											Read More
+										</a>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+					</div>
+					<div class="clearfix">
+						<ul class="hr_list fs_medium paginations t_align_c f_left f_mxs_none m_mxs_bottom_10">
+							<li>
+								<a href="#" class="rc_first_hr color_dark">1</a>
+							</li>
+							<li>
+								<a href="#" class=" color_dark">2</a>
+							</li>
+							<li>
+								<a href="#" class="rc_last_hr color_dark">3</a>
+							</li>
+						</ul>
+						<div class="f_right clearfix f_mxs_none">
+							<a href="#" class="button_type_2 color_dark r_corners transparent bg_color_purple_hover fs_medium prev_page_button f_left m_right_5">Prev Page</a>
+							<a href="#" class="button_type_2 color_dark r_corners transparent bg_color_purple_hover fs_medium next_page_button f_left m_right_5">Next Page</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+	</body>
+{% endblock content %}
