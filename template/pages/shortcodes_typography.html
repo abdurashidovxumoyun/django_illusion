@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		 
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+		
+		<!--layout-->
+		<div class="wide_layout bg_light">
+		
+			<!--page title-->
+			<section class="page_title translucent_bg_orange t_align_c">
+				<div class="container">
+					<h1 class="color_light fw_light m_bottom_5">Typography</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_grey_light_3 d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Shortcodes</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="f_xs_none"><a class="color_grey_light_3 d_inline_m">Typography</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<section class="section_offset">
+				<div class="container">
+					<h1 class="color_dark fw_light m_bottom_15">h1. Heading 1</h1>
+					<p class="fw_light m_bottom_35 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<h2 class="color_dark fw_light m_bottom_15">h2. Heading 2</h2>
+					<p class="fw_light m_bottom_35 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<h3 class="color_dark fw_light m_bottom_20">h3. Heading 3</h3>
+					<p class="fw_light m_bottom_35 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<h4 class="color_dark fw_light m_bottom_20">h4. Heading 4</h4>
+					<p class="fw_light m_bottom_35 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<h5 class="color_dark fw_light m_bottom_20">h5. Heading 5</h5>
+					<p class="fw_light m_bottom_35 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<h6 class="color_dark fw_light m_bottom_20">h6. Heading 6</h6>
+					<p class="fw_light m_bottom_40 m_xs_bottom_30">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+					<!--dropcaps-->
+					<h5 class="color_dark fw_light m_bottom_20">Dropcaps</h5>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 m_bottom_40 m_xs_bottom_30">
+							<p class="fw_light first_letter_1">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. </p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 m_bottom_40 m_xs_bottom_30">
+							<p class="fw_light first_letter_2">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30">
+							<h5 class="color_dark fw_light m_bottom_20">Tooltips &amp; Highlights</h5>
+							<p class="fw_light m_bottom_10">Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, <a href="#" class="d_inline_b relative tooltip_container">dapibus eget<span class="tooltip_type_2 top tr_all fw_normal r_corners color_light fs_ex_small d_block">Example of a top tooltip</span></a>, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. <mark class="">Donec sit amet eros.</mark> Lorem ipsum dolor sit amet, consectetuer elit.</p>
+							<p class="fw_light">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, <a href="#" class="d_inline_b relative tooltip_container">elementum<span class="tooltip_type_2 left tr_all fw_normal r_corners color_light fs_ex_small d_block">Example of a left tooltip</span></a> vel, cursus eleifend, elit. Aenean <a href="#" class="d_inline_b relative tooltip_container">auctor wisi<span class="tooltip_type_2 right tr_all fw_normal r_corners color_light fs_ex_small d_block">Example of a right tooltip</span></a> et urna. Aliquam erat volutpat. Duis ac turpis. <a href="#" class="d_inline_b relative tooltip_container">Integer<span class="tooltip_type_2 bottom tr_all fw_normal r_corners color_light fs_ex_small d_block">Example of a right tooltip</span> rutrum</a> ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. </p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<h5 class="color_dark fw_light m_bottom_20">Emphasis</h5>
+							<div class="row">
+								<ul class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30">
+									<li class="fs_small m_bottom_10">Here is small text</li>
+									<li class="fw_light m_bottom_10"><i>Here is Italicized text</i></li>
+									<li class="fw_light m_bottom_10"><u>Here is underlined text</u></li>
+									<li class="fw_light m_bottom_10"><b>Here is bold text</b></li>
+								</ul>
+								<ul class="col-lg-6 col-md-6 col-sm-6 fw_light">
+									<li class="m_bottom_10 color_orange">Something may have gone wrong</li>
+									<li class="m_bottom_10 color_red">Please correct the error</li>
+									<li class="m_bottom_10 color_scheme">Username is taken</li>
+									<li class="m_bottom_10 color_green">Woohoo!</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+		
+		
+	</body>
+{% endblock content %}

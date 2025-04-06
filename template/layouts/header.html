@@ -3,7 +3,7 @@
 	<header class="m_bottom_30 d_table w_full">
 		<!--logo-->
 		<div class="d_table_cell half_column v_align_m">
-			<a href="index.html">
+			<a href="{% url "home" %}">
 				<img src="images/logo_side.png" alt="">
 			</a>
 		</div>
@@ -27,18 +27,18 @@
 	<nav>
 		<ul class="side_main_menu fw_light">
 			<li class="has_sub_menu active m_bottom_10">
-				<a href="index.html" class="d_block relative fs_large color_light_2 color_blue_hover">Home</a>
+				<a href="{% url "home" %}" class="d_block relative fs_large color_light_2 color_blue_hover">Home</a>
 				<!--sub menu(second level)-->
 				<ul class="m_top_10">
 					<li class="has_sub_menu m_bottom_10">
-						<a href="index.html" class="d_block relative color_light_2 color_blue_hover">Layouts</a>
+						<a href="{% url "home" %}" class="d_block relative color_light_2 color_blue_hover">Layouts</a>
 						<!--sub menu(third level)-->
 						<ul class="m_top_10 d_none">
-							<li class="m_bottom_10"><a href="index.html" class="d_block relative color_light_2 color_blue_hover">Business</a></li>
-							<li class="m_bottom_10"><a href="index_agency.html" class="d_block relative color_light_2 color_blue_hover">Agency</a></li>
-							<li class="m_bottom_10"><a href="index_portfolio.html" class="d_block relative color_light_2 color_blue_hover">Portfolio</a></li>
-							<li class="m_bottom_10"><a href="index_landing.html" class="d_block relative color_light_2 color_blue_hover">Landing Page</a></li>
-							<li class="m_bottom_10"><a href="index_magazine.html" class="d_block relative color_light_2 color_blue_hover">Magazine</a></li>
+							<li class="m_bottom_10"><a href="{% url "home" %}" class="d_block relative color_light_2 color_blue_hover">Business</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_agency" %}" class="d_block relative color_light_2 color_blue_hover">Agency</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_portfolio" %}" class="d_block relative color_light_2 color_blue_hover">Portfolio</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_landing" %}" class="d_block relative color_light_2 color_blue_hover">Landing Page</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_magazine" %}" class="d_block relative color_light_2 color_blue_hover">Magazine</a></li>
 							<li><a href="shop.html" class="d_block relative color_light_2 color_blue_hover">Shop</a></li>
 						</ul>
 					</li>
@@ -46,10 +46,10 @@
 						<a href="index.html" class="d_block relative color_light_2 color_blue_hover">Sliders</a>
 						<!--sub menu(third level)-->
 						<ul class="m_top_10">
-							<li class="m_bottom_10"><a href="index.html" class="d_block relative color_light_2 color_blue_hover">Revolution</a></li>
-							<li class="m_bottom_10"><a href="index_magazine.html" class="d_block relative color_light_2 color_blue_hover">Flex</a></li>
+							<li class="m_bottom_10"><a href="{% url "home" %}" class="d_block relative color_light_2 color_blue_hover">Revolution</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_magazine" %}" class="d_block relative color_light_2 color_blue_hover">Flex</a></li>
 							<li class="m_bottom_10"><a href="shop.html" class="d_block relative color_light_2 color_blue_hover">iosSlider</a></li>
-							<li class="m_bottom_10"><a href="index_portfolio.html" class="d_block relative color_light_2 color_blue_hover">Layer</a></li>
+							<li class="m_bottom_10"><a href="{% url "index_portfolio" %}" class="d_block relative color_light_2 color_blue_hover">Layer</a></li>
 							<li class="m_bottom_10"><a href="index_video_slider.html" class="d_block relative color_light_2 color_blue_hover">Video Slider</a></li>
 							<li class="has_sub_menu active">
 								<a href="index_boxed_static_video.html" class="d_block relative color_light_2 color_blue_hover">Static Content</a>

@@ -1,0 +1,970 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		 
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+		
+		<!--layout-->
+		<div class="wide_layout bg_light">
+		
+			<!--page title-->
+			<section class="page_title_2 bg_light_2 t_align_c relative wrapper">
+				<div class="container">
+					<h1 class="color_dark fw_light m_bottom_5">Category List View Page With Right Sidebar</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_default d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_default fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_default d_inline_m m_right_10">Shop</a><i class="icon-angle-right d_inline_m color_default fs_small"></i></li>
+						<li><a class="color_default d_inline_m">Category List View Page With Right Sidebar</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<div class="section_offset">
+				<div class="container">
+					<div class="row">
+						<section class="col-lg-9 col-md-9 col-sm-9 m_bottom_70 m_xs_bottom_30">
+							<figure class="m_bottom_45 m_xs_bottom_30">
+								<img src="images/shop_img_6.jpg" alt="" class="m_bottom_20 r_corners">
+								<figcaption>
+									<p class="fw_light">Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. 
+									</p>
+								</figcaption>
+							</figure>
+							<!--categories-->
+							<div class="clearfix m_bottom_50 m_xs_bottom_15 t_xs_align_c">
+								<a href="#" class="r_corners category_link w_xs_auto d_xs_inline_b f_xs_none m_xs_bottom_15 d_block f_left wrapper m_right_10 t_align_c">
+									<img src="images/category_img_1.jpg" alt="">
+									<p class="category_title bg_light_2 tr_all color_dark">Dresses</p>
+								</a>
+								<a href="#" class="r_corners category_link w_xs_auto d_xs_inline_b f_xs_none m_xs_bottom_15 d_block f_left wrapper m_right_10 t_align_c">
+									<img src="images/category_img_2.jpg" alt="">
+									<p class="category_title bg_light_2 tr_all color_dark">Tops</p>
+								</a>
+								<a href="#" class="r_corners category_link w_xs_auto d_xs_inline_b f_xs_none m_xs_bottom_15 d_block f_left wrapper m_right_10 t_align_c">
+									<img src="images/category_img_3.jpg" alt="">
+									<p class="category_title bg_light_2 tr_all color_dark">Skirts</p>
+								</a>
+								<a href="#" class="r_corners category_link w_xs_auto d_xs_inline_b f_xs_none m_xs_bottom_15 d_block f_left wrapper m_right_10 t_align_c">
+									<img src="images/category_img_4.jpg" alt="">
+									<p class="category_title bg_light_2 tr_all color_dark">Jeans</p>
+								</a>
+								<a href="#" class="r_corners category_link w_xs_auto d_xs_inline_b f_xs_none m_xs_bottom_15 d_block f_left wrapper t_align_c">
+									<img src="images/category_img_5.jpg" alt="">
+									<p class="category_title bg_light_2 tr_all color_dark">Shorts</p>
+								</a>
+							</div>
+							<!--filter-->
+							<div class="clearfix m_bottom_10">
+								<div class="custom_select products_filter type_2 f_left f_xs_none m_xs_bottom_10">
+									<div class="select_title r_corners color_grey fs_medium">Product name</div>
+									<ul class="select_list r_corners wrapper shadow_1 bg_light tr_all"></ul>
+									<select class="d_none">
+										<option value="Product 1">Product 1</option>
+										<option value="Product 2">Product 2</option>
+										<option value="Product 3">Product 3</option>
+										<option value="Product 4">Product 4</option>
+									</select>
+								</div>
+								<div class="custom_select products_filter type_2 f_xs_none m_xs_left_0 f_left m_left_5 m_xs_bottom_10">
+									<div class="select_title r_corners color_grey fs_medium">Select manufacturer</div>
+									<ul class="select_list r_corners wrapper shadow_1 bg_light tr_all"></ul>
+									<select class="d_none">
+										<option value="Prada">Prada</option>
+										<option value="Calvin Klein">Calvin Klein</option>
+										<option value="Mango">Mango</option>
+										<option value="Brioni">Brioni</option>
+									</select>
+								</div>
+								<ul class="hr_list f_right fs_medium paginations t_align_c f_xs_none">
+									<li>
+										<a href="portfolio_classic_1_column.html" data-shop-layout="grid" class="rc_first_hr color_dark">
+											<i class="icon-layout fs_large"></i>
+										</a>
+									</li>
+									<li class="active">
+										<a href="#" class="rc_last_hr color_dark" data-shop-layout="list">
+											<i class="icon-menu"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<hr class="m_bottom_10">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-7 m_bottom_15">
+									<p class="d_inline_m fs_medium m_right_15">Results 1 - 6 of 6</p>
+									<p class="d_inline_m fs_medium m_right_5">Show</p>
+									<div class="custom_select show_per_page_select type_2 m_right_5 d_inline_m">
+										<div class="select_title r_corners color_grey fs_medium">9</div>
+										<ul class="select_list r_corners wrapper shadow_1 bg_light tr_all"></ul>
+										<select class="d_none">
+											<option value="9">9</option>
+											<option value="8">8</option>
+											<option value="7">7</option>
+											<option value="6">6</option>
+											<option value="5">5</option>
+											<option value="4">4</option>
+											<option value="3">3</option>
+											<option value="2">2</option>
+											<option value="1">1</option>
+										</select>
+									</div>
+									<p class="d_inline_m fs_medium">pre page</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-5 m_bottom_15 t_align_r t_xs_align_l">
+									<ul class="hr_list d_inline_b fs_medium paginations t_align_c">
+										<li>
+											<a href="#" class="rc_first_hr color_dark"><i class="icon-angle-left fs_large"></i></a>
+										</li>
+										<li class="active">
+											<a href="#" class=" color_dark">1</a>
+										</li>
+										<li>
+											<a href="#" class=" color_dark">2</a>
+										</li>
+										<li>
+											<a href="#" class=" color_dark">3</a>
+										</li>
+										<li>
+											<a href="#" class="rc_last_hr color_dark"><i class="icon-angle-right fs_large"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--products-->
+							<div class="shop_isotope_container t_xs_align_c three_columns m_bottom_15" data-isotope-options='{"itemSelector" : ".shop_isotope_item","layoutMode" : "fitRows","transitionDuration":"0.7s"}'>
+								<div class="shop_isotope_item d_xs_inline_b list_view">
+									<figure class="fp_item t_align_c d_xs_inline_b t_align_l">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23 t_xs_align_c f_left m_right_20 f_xs_none">
+											<div class="fp_images relative">
+												<img class="tr_all" alt="" src="images/shop_img_1.jpg">
+												<img class="tr_all" alt="" src="images/shop_img_2.jpg">
+											</div>
+											<div class="labels_container">
+												<a class="d_block label color_scheme tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c" href="#"><span class="d_inline_m">New</span></a>
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_5">
+											<a class="color_dark" href="#">Endrerit sit amet, tincidunt</a>
+											</h6>
+											<a class="fs_medium color_grey d_inline_b m_bottom_3" href="#">
+												<i>Tops</i>
+											</a>
+											<div class="im_half_container wrapper m_bottom_15">
+												<p class="color_dark d_sm_block w_sm_full d_xs_inline_m w_xs_half_column fw_ex_bold d_inline_m tr_all fp_price with_ie f_left f_xs_none d_xs_block w_xs_full">$75.00</p>
+												<div class="d_sm_block w_sm_full d_xs_inline_m w_xs_half_column t_xs_align_r d_inline_m t_align_r tr_all with_ie f_right t_sm_align_l f_xs_none d_xs_block w_xs_full">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+													<a class="reviews fs_medium color_dark m_left_5 tr_all d_inline_b" href="#">2 Review(s)</a>
+												</div>
+											</div>
+											<div class="product_description m_bottom_20 d_block">
+												<hr class="m_bottom_12">
+												<p class="color_grey fs_medium m_bottom_15">Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.</p>
+												<hr>
+											</div>
+											<div class="clearfix fp_buttons">
+												<div class="w_md_full m_md_bottom_10 tr_all f_left f_md_none with_ie">
+													<a class="button_type_6 d_inline_b color_pink transparent r_corners vc_child tr_all add_to_cart_button" href="#">
+														<span class="d_inline_m clerarfix">
+															<i class="icon-basket f_left m_right_10 fs_large"></i>
+															<span class="fs_medium">Add to Cart</span>
+														</span>
+													</a>
+												</div>
+												<div class="w_md_full tr_all f_left f_md_none clearfix with_ie">
+													<a href="#" class="button_type_6 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_blue_hover t_align_c"><i class="icon-docs d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Compare</span></a>
+													<a href="#" class="button_type_6 m_left_5 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_purple_hover t_align_c m_right_5 m_md_right_0"><i class="icon-heart d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Wishlist</span></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+								<div class="shop_isotope_item d_xs_inline_b list_view">
+									<figure class="fp_item t_align_c d_xs_inline_b t_align_l">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23 t_xs_align_c f_left m_right_20 f_xs_none">
+											<div class="fp_images relative">
+												<img class="tr_all" alt="" src="images/shop_img_2.jpg">
+												<img class="tr_all" alt="" src="images/shop_img_4.jpg">
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_5">
+											<a class="color_dark" href="#">Vivamus eget nibh</a>
+											</h6>
+											<a class="fs_medium color_grey d_inline_b m_bottom_3" href="#">
+												<i>Dresses</i>
+											</a>
+											<div class="im_half_container wrapper m_bottom_15">
+												<p class="color_dark d_sm_block w_sm_full d_xs_inline_m w_xs_half_column fw_ex_bold d_inline_m tr_all fp_price with_ie f_left f_xs_none d_xs_block w_xs_full">$199.00</p>
+												<div class="d_sm_block w_sm_full d_xs_inline_m w_xs_half_column t_xs_align_r d_inline_m t_align_r tr_all with_ie f_right t_sm_align_l f_xs_none d_xs_block w_xs_full">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="product_description m_bottom_20 d_block">
+												<hr class="m_bottom_12">
+												<p class="color_grey fs_medium m_bottom_15">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus.</p>
+												<hr>
+											</div>
+											<div class="clearfix fp_buttons">
+												<div class="w_md_full m_md_bottom_10 tr_all f_left f_md_none with_ie">
+													<a class="button_type_6 d_inline_b color_pink transparent r_corners vc_child tr_all add_to_cart_button" href="#">
+														<span class="d_inline_m clerarfix">
+															<i class="icon-basket f_left m_right_10 fs_large"></i>
+															<span class="fs_medium">Add to Cart</span>
+														</span>
+													</a>
+												</div>
+												<div class="w_md_full tr_all f_left f_md_none clearfix with_ie">
+													<a href="#" class="button_type_6 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_blue_hover t_align_c"><i class="icon-docs d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Compare</span></a>
+													<a href="#" class="button_type_6 m_left_5 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_purple_hover t_align_c m_right_5 m_md_right_0"><i class="icon-heart d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Wishlist</span></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+								<div class="shop_isotope_item d_xs_inline_b list_view">
+									<figure class="fp_item t_align_c d_xs_inline_b t_align_l">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23 t_xs_align_c f_left m_right_20 f_xs_none">
+											<div class="fp_images relative">
+												<img class="tr_all" alt="" src="images/shop_img_4.jpg">
+												<img class="tr_all" alt="" src="images/shop_img_1.jpg">
+											</div>
+											<div class="labels_container">
+												<a class="d_block label color_scheme tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c" href="#"><span class="d_inline_m">New</span></a>
+												<a href="#" class="d_block label color_pink color_pink_hover tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c"><span class="d_inline_m">Sale</span></a>
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_5">
+											<a class="color_dark" href="#">Neque porro quisquam</a>
+											</h6>
+											<a class="fs_medium color_grey d_inline_b m_bottom_3" href="#">
+												<i>Jeans</i>
+											</a>
+											<div class="im_half_container wrapper m_bottom_15">
+												<p class="color_dark d_sm_block w_sm_full d_xs_inline_m w_xs_half_column fw_ex_bold d_inline_m tr_all fp_price with_ie f_left f_xs_none d_xs_block w_xs_full"><s class="fw_normal color_grey">$347</s> $317.00</p>
+												<div class="d_sm_block w_sm_full d_xs_inline_m w_xs_half_column t_xs_align_r d_inline_m t_align_r tr_all with_ie f_right t_sm_align_l f_xs_none d_xs_block w_xs_full">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+													<a class="reviews fs_medium color_dark m_left_5 tr_all d_inline_b" href="#">7 Review(s)</a>
+												</div>
+											</div>
+											<div class="product_description m_bottom_20 d_block">
+												<hr class="m_bottom_12">
+												<p class="color_grey fs_medium m_bottom_15">Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.</p>
+												<hr>
+											</div>
+											<div class="clearfix fp_buttons">
+												<div class="w_md_full m_md_bottom_10 tr_all f_left f_md_none with_ie">
+													<a class="button_type_6 d_inline_b color_pink transparent r_corners vc_child tr_all add_to_cart_button" href="#">
+														<span class="d_inline_m clerarfix">
+															<i class="icon-basket f_left m_right_10 fs_large"></i>
+															<span class="fs_medium">Add to Cart</span>
+														</span>
+													</a>
+												</div>
+												<div class="w_md_full tr_all f_left f_md_none clearfix with_ie">
+													<a href="#" class="button_type_6 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_blue_hover t_align_c"><i class="icon-docs d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Compare</span></a>
+													<a href="#" class="button_type_6 m_left_5 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_purple_hover t_align_c m_right_5 m_md_right_0"><i class="icon-heart d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Wishlist</span></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+								<div class="shop_isotope_item d_xs_inline_b list_view">
+									<figure class="fp_item t_align_c d_xs_inline_b t_align_l">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23 t_xs_align_c f_left m_right_20 f_xs_none">
+											<div class="fp_images relative">
+												<img class="tr_all" alt="" src="images/shop_img_7.jpg">
+												<img class="tr_all" alt="" src="images/shop_img_2.jpg">
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_5">
+											<a class="color_dark" href="#">Lorem ipsum dolor sit</a>
+											</h6>
+											<a class="fs_medium color_grey d_inline_b m_bottom_3" href="#">
+												<i>Tops</i>
+											</a>
+											<div class="im_half_container wrapper m_bottom_15">
+												<p class="color_dark d_sm_block w_sm_full d_xs_inline_m w_xs_half_column fw_ex_bold d_inline_m tr_all fp_price with_ie f_left f_xs_none d_xs_block w_xs_full">$705.00</p>
+												<div class="d_sm_block w_sm_full d_xs_inline_m w_xs_half_column t_xs_align_r d_inline_m t_align_r tr_all with_ie f_right t_sm_align_l f_xs_none d_xs_block w_xs_full">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="product_description m_bottom_20 d_block">
+												<hr class="m_bottom_12">
+												<p class="color_grey fs_medium m_bottom_15">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. </p>
+												<hr>
+											</div>
+											<div class="clearfix fp_buttons">
+												<div class="w_md_full m_md_bottom_10 tr_all f_left f_md_none with_ie">
+													<a class="button_type_6 d_inline_b color_pink transparent r_corners vc_child tr_all add_to_cart_button" href="#">
+														<span class="d_inline_m clerarfix">
+															<i class="icon-basket f_left m_right_10 fs_large"></i>
+															<span class="fs_medium">Add to Cart</span>
+														</span>
+													</a>
+												</div>
+												<div class="w_md_full tr_all f_left f_md_none clearfix with_ie">
+													<a href="#" class="button_type_6 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_blue_hover t_align_c"><i class="icon-docs d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Compare</span></a>
+													<a href="#" class="button_type_6 m_left_5 relative tooltip_container f_right f_md_none d_md_inline_b d_block color_dark r_corners vc_child tr_all color_purple_hover t_align_c m_right_5 m_md_right_0"><i class="icon-heart d_inline_m fs_large"></i><span class="d_block r_corners color_default tooltip fs_small fw_normal tr_all">Add to Wishlist</span></a>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-7 m_xs_bottom_15">
+									<p class="d_inline_m fs_medium m_right_15">Results 1 - 6 of 6</p>
+									<p class="d_inline_m fs_medium m_right_5">Show</p>
+									<div class="custom_select show_per_page_select type_2 m_right_5 d_inline_m">
+										<div class="select_title r_corners color_grey fs_medium">9</div>
+										<ul class="select_list r_corners wrapper shadow_1 bg_light tr_all"></ul>
+										<select class="d_none">
+											<option value="9">9</option>
+											<option value="8">8</option>
+											<option value="7">7</option>
+											<option value="6">6</option>
+											<option value="5">5</option>
+											<option value="4">4</option>
+											<option value="3">3</option>
+											<option value="2">2</option>
+											<option value="1">1</option>
+										</select>
+									</div>
+									<p class="d_inline_m fs_medium">pre page</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-5 t_align_r t_xs_align_l">
+									<ul class="hr_list d_inline_b fs_medium paginations t_align_c">
+										<li>
+											<a href="#" class="rc_first_hr color_dark"><i class="icon-angle-left fs_large"></i></a>
+										</li>
+										<li class="active">
+											<a href="#" class=" color_dark">1</a>
+										</li>
+										<li>
+											<a href="#" class=" color_dark">2</a>
+										</li>
+										<li>
+											<a href="#" class=" color_dark">3</a>
+										</li>
+										<li>
+											<a href="#" class="rc_last_hr color_dark"><i class="icon-angle-right fs_large"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<aside class="col-lg-3 col-md-3 col-sm-3 m_bottom_70 m_xs_bottom_30">
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<!--filter-->
+								<div class="m_bottom_25">
+									<h5 class="color_dark fw_light m_bottom_20">Filter</h5>
+									<p class="m_bottom_8">Categories</p>
+									<div class="custom_select c_select">
+										<div class="select_title r_corners fw_light color_grey">All Categories</div>
+										<ul class="select_list r_corners wrapper shadow_1 bg_light tr_all"></ul>
+										<select class="d_none">
+											<option value="Men">Men</option>
+											<option value="Women">Women</option>
+											<option value="Kids">Kids</option>
+										</select>
+									</div>
+								</div>
+								<!--manufacturers-->
+								<div class="m_bottom_25">
+									<p class="m_bottom_8">Manufacturers</p>
+									<form id="manufacturers_form">
+										<ul>
+											<li class="m_bottom_10">
+												<input type="checkbox" checked id="checkbox_2" name="" class="d_none">
+												<label for="checkbox_2" class="d_inline_m m_right_10 fw_light color_dark">Prada <span class="color_grey">(10)</span></label>
+											</li>
+											<li class="m_bottom_10">
+												<input type="checkbox" id="checkbox_3" name="" class="d_none">
+												<label for="checkbox_3" class="d_inline_m m_right_10 fw_light color_dark">Calvin Klein <span class="color_grey">(14)</span></label>
+											</li>
+											<li class="m_bottom_10">
+												<input type="checkbox" id="checkbox_4" name="" class="d_none">
+												<label for="checkbox_4" class="d_inline_m m_right_10 fw_light color_dark">Mango <span class="color_grey">(37)</span></label>
+											</li>
+											<li class="m_bottom_10">
+												<input type="checkbox" id="checkbox_5" name="" class="d_none">
+												<label for="checkbox_5" class="d_inline_m m_right_10 fw_light color_dark">Zara <span class="color_grey">(22)</span></label>
+											</li>
+											<li>
+												<input type="checkbox" id="checkbox_6" name="" class="d_none">
+												<label for="checkbox_6" class="d_inline_m m_right_10 fw_light color_dark">Brioni <span class="color_grey">(74)</span></label>
+											</li>
+										</ul>
+									</form>
+								</div>
+								<!--price-->
+								<div class="m_bottom_12">
+									<p class="m_bottom_15">Price</p>
+									<div id="price"></div>
+									<div class="clearfix">
+										<input type="text" readonly class="f_left half_column first_limit color_dark fw_light">
+										<input type="text" readonly class="f_right half_column t_align_r last_limit color_dark fw_light">
+									</div>
+								</div>
+								<!--colors-->
+								<div class="m_bottom_20">
+									<p class="m_bottom_5">Colors</p>
+									<ul class="hr_list">
+										<li class="m_right_10 m_sm_bottom_5">
+											<button class="color_button tr_delay  bg_light circle"></button>
+										</li>
+										<li class="m_right_10 m_sm_bottom_5">
+											<button class="color_button tr_delay  bg_color_red circle"></button>
+										</li>
+										<li class="m_right_10 m_sm_bottom_5">
+											<button class="color_button tr_delay  bg_color_dark_green circle"></button>
+										</li>
+										<li class="m_right_10 m_sm_bottom_5">
+											<button class="color_button tr_delay  bg_color_dark_blue circle"></button>
+										</li>
+										<li class="m_right_10 m_sm_bottom_5">
+											<button class="color_button tr_delay  bg_color_dark circle"></button>
+										</li>
+									</ul>
+								</div>
+								<div class="m_bottom_20 clearfix">
+									<button type="button" class="button_type_5 f_left m_right_5 m_sm_bottom_5 r_corners tr_all color_pink transparent fs_medium">Show</button>
+									<button type="reset" id="reset_filter_form" form="manufacturers_form" class="button_type_5 f_left r_corners tr_all color_dark color_pink_hover fs_medium">Reset</button>
+								</div>
+							</div>
+							<!--categories-->
+							<div class="m_bottom_40 m_xs_bottom_30">
+								<h5 class="color_dark fw_light m_bottom_20">Categories</h5>
+								<ul class="categories_list">
+									<li>
+										<a href="#" class="color_dark tr_all d_block">
+											<span class="icon_wrap_size_0 circle d_inline_m m_right_8 color_grey_light_5 tr_inherit">
+												<i class="icon-angle-right"></i>
+											</span>
+											Women
+										</a>
+										<ul class="fw_light d_none">
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Dresses</span></a>
+												<ul class="fw_light fs_medium d_none">
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Casual</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Coctail</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Summer</span></a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_smal tr_inheritl"></i><span class="d_inline_m">Tops</span></a>
+												<ul class="fw_light fs_medium d_none">
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Casual</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Coctail</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Summer</span></a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Skirts</span></a>
+												<ul class="fw_light fs_medium d_none">
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Casual</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Coctail</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Summer</span></a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Jeans</span></a>
+												<ul class="fw_light fs_medium d_none">
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Casual</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Coctail</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Summer</span></a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Shorts</span></a>
+												<ul class="fw_light fs_medium d_none">
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Casual</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Coctail</span></a>
+													</li>
+													<li>
+														<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 tr_inherit"></i><span class="d_inline_m">Summer</span></a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" class="color_dark tr_all d_block">
+											<span class="icon_wrap_size_0 circle d_inline_m m_right_8 color_grey_light_5 tr_inherit">
+												<i class="icon-angle-right"></i>
+											</span>
+											Men
+										</a>
+										<ul class="fw_light d_none">
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Dresses</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_smal tr_inheritl"></i><span class="d_inline_m">Tops</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Skirts</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Jeans</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Shorts</span></a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" class="color_dark tr_all d_block">
+											<span class="icon_wrap_size_0 circle d_inline_m m_right_8 color_grey_light_5 tr_inherit">
+												<i class="icon-angle-right"></i>
+											</span>
+											Kids
+										</a>
+										<ul class="fw_light d_none">
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Dresses</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_smal tr_inheritl"></i><span class="d_inline_m">Tops</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Skirts</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Jeans</span></a>
+											</li>
+											<li>
+												<a href="#" class="d_block color_dark"><i class="icon-angle-right d_inline_m m_right_8 color_grey_light_5 fs_small tr_inherit"></i><span class="d_inline_m">Shorts</span></a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<!--compare products-->
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="color_dark fw_light m_bottom_23">Compare Products</h5>
+								<ul class="added_items_list type_2 p_top_0 m_bottom_3">
+									<li class="clearfix lh_large relative">
+										<a href="#" class="d_block f_sm_none f_xs_left d_sm_inline_b d_xs_block m_sm_bottom_5 m_xs_bottom_0 f_left m_right_20 r_corners wrapper"><img src="images/product_img_2.jpg" alt=""></a>
+										<a href="#" class="color_dark d_block m_bottom_3 lh_small">Proin dictum</a>
+										<i class="icon-cancel-circled-1 color_grey_light_2 fs_large color_dark_hover tr_all"></i>
+									</li>
+									<li class="clearfix lh_large relative">
+										<a href="#" class="d_block f_left m_right_20 f_sm_none f_xs_left d_sm_inline_b d_xs_block m_sm_bottom_5 r_corners wrapper m_xs_bottom_0"><img src="images/product_img_1.jpg" alt=""></a>
+										<a href="#" class="color_dark d_block m_bottom_3 lh_small">Aliquam dapibus tincidunt</a>
+										<i class="icon-cancel-circled-1 color_grey_light_2 fs_large color_dark_hover tr_all"></i>
+									</li>
+								</ul>
+								<a href="#" class="color_dark d_inline_b button_type_6 color_blue_hover r_corners tr_all vc_child">
+									<span class="d_inline_m">
+										<i class="icon-docs d_inline_b m_right_5 fs_large"></i>
+										<span class="fs_medium d_inline_b">Go to Compare</span>
+									</span>
+								</a>
+							</div>
+							<!--tags-->
+							<div class="m_bottom_45 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_23">Tags</h5>
+								<!--tags list-->
+								<ul class="hr_list tags_list">
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">interviews</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">design</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">development</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">marketing</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">press</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">projects</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">resources</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tips</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tricks</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">web</a></li>
+								</ul>
+							</div>
+							<!--specials-->
+							<div class="m_bottom_30">
+								<!--title & nav-->
+								<div class="clearfix m_bottom_25 m_sm_bottom_10 m_xs_bottom_20">
+									<h5 class="fw_light f_left f_sm_none f_xs_left color_dark m_sm_bottom_5 m_xs_bottom_0">Specials</h5>
+									<div class="f_right f_sm_none f_xs_right clearfix">
+										<button class="icon_wrap_size_0 circle color_grey_light f_left m_right_5 specials_prev color_pink_hover tr_all">
+											<i class="icon-angle-left fs_large"></i>
+										</button>
+										<button class="icon_wrap_size_0 circle color_grey_light f_left m_right_5 specials_next color_pink_hover tr_all">
+											<i class="icon-angle-right fs_large"></i>
+										</button>
+									</div>
+								</div>
+								<div class="t_xs_align_c owl-carousel" data-plugin-options='{"transitionStyle":"backSlide","autoPlay" : true}' data-nav="specials_">
+									<!--product-->
+									<figure class="fp_item t_align_c d_xs_inline_b">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23">
+											<!--images container-->
+											<div class="fp_images relative">
+												<img src="images/shop_img_3.jpg" alt="" class="tr_all">
+												<img src="images/shop_img_2.jpg" alt="" class="tr_all">
+											</div>
+											<!--labels-->
+											<div class="labels_container">
+												<a href="#" class="d_block label color_pink color_pink_hover tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c"><span class="d_inline_m">Sale</span></a>
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_8"><a href="#" class="color_dark">Aliquam dapibus tincidunt </a></h6>
+											<div class="im_half_container m_bottom_10">
+												<p class="color_dark w_sm_full d_sm_block d_xs_inline_m w_xs_half_column fw_ex_bold half_column d_inline_m t_align_c tr_all animate_fctl fp_price with_ie"><s class="fw_normal color_grey">$58</s> $46.00</p>	
+												<div class="half_column w_sm_full d_sm_block t_sm_align_c d_xs_inline_m w_xs_half_column d_inline_m t_align_r tr_all animate_fctr with_ie">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+									<!--product-->
+									<figure class="fp_item t_align_c d_xs_inline_b">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23">
+											<!--images container-->
+											<div class="fp_images relative">
+												<img src="images/shop_img_4.jpg" alt="" class="tr_all">
+												<img src="images/shop_img_2.jpg" alt="" class="tr_all">
+											</div>
+											<!--labels-->
+											<div class="labels_container">
+												<a href="#" class="d_block label color_scheme tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c"><span class="d_inline_m">New</span></a>
+												<a href="#" class="d_block label color_pink color_pink_hover tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c"><span class="d_inline_m">Sale</span></a>
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_8"><a href="#" class="color_dark">Neque porro quisquam </a></h6>
+											<div class="im_half_container m_bottom_10">
+												<p class="color_dark fw_ex_bold w_sm_full d_sm_block d_xs_inline_m w_xs_half_column half_column d_inline_m t_align_c tr_all animate_fctl fp_price with_ie"><s class="fw_normal color_grey">$347</s> $317.00</p>	
+												<div class="half_column w_sm_full d_sm_block t_sm_align_c d_xs_inline_m w_xs_half_column d_inline_m t_align_r tr_all animate_fctr with_ie">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+									<!--product-->
+									<figure class="fp_item t_align_c d_xs_inline_b">
+										<div class="relative r_corners d_xs_inline_b d_mxs_block wrapper m_bottom_23">
+											<!--images container-->
+											<div class="fp_images relative">
+												<img src="images/shop_img_1.jpg" alt="" class="tr_all">
+												<img src="images/shop_img_2.jpg" alt="" class="tr_all">
+											</div>
+											<!--labels-->
+											<div class="labels_container">
+												<a href="#" class="d_block label color_scheme tt_uppercase fs_ex_small circle m_bottom_5 vc_child t_align_c"><span class="d_inline_m">New</span></a>
+											</div>
+										</div>
+										<figcaption>
+											<h6 class="m_bottom_8"><a href="#" class="color_dark">Endrerit sit amet, tincidunt</a></h6>
+											<div class="im_half_container m_bottom_10">
+												<p class="color_dark fw_ex_bold w_sm_full d_sm_block d_xs_inline_m w_xs_half_column half_column d_inline_m t_align_c tr_all animate_fctl fp_price with_ie">$75.00</p>	
+												<div class="half_column w_sm_full d_sm_block t_sm_align_c d_xs_inline_m w_xs_half_column d_inline_m t_align_r tr_all animate_fctr with_ie">
+													<ul class="rating_list d_inline_m hr_list tr_all">
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative active lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+														<li class="relative lh_ex_small">
+															<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+															<i class="icon-star-1 color_yellow tr_all"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+							<!--bestsellers-->
+							<div>
+								<h5 class="fw_light color_dark m_bottom_23">Bestsellers</h5>
+								<ul>
+									<li class="clearfix m_bottom_35 m_xs_bottom_30">
+										<a href="#" class="f_left d_block f_sm_none f_xs_left d_sm_inline_b m_sm_bottom_5 m_xs_bottom_0 r_corners wrapper m_right_20">
+											<img src="images/bestsellers_img_3.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark lh_small d_block m_bottom_10 tr_all">Vestibulum ante ipsum</a>
+										<p class="color_dark fs_medium fw_ex_bold fp_price m_bottom_3"><s class="fw_normal color_grey">$75.00</s> $55.00</p>
+										<ul class="rating_list hr_list">
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+										</ul>
+									</li>
+									<li class="clearfix m_bottom_35 m_xs_bottom_30">
+										<a href="#" class="f_left d_block r_corners f_sm_none f_xs_left d_sm_inline_b m_sm_bottom_5 m_xs_bottom_0 wrapper m_right_20">
+											<img src="images/bestsellers_img_2.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark lh_small d_block m_bottom_10 tr_all">Pellentesque sed</a>
+										<p class="color_dark fs_medium fw_ex_bold fp_price m_bottom_3">$19.00</p>
+										<ul class="rating_list hr_list">
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+										</ul>
+									</li>
+									<li class="clearfix m_bottom_35 m_xs_bottom_30">
+										<a href="#" class="f_left d_block r_corners f_sm_none f_xs_left d_sm_inline_b m_sm_bottom_5 m_xs_bottom_0 wrapper m_right_20">
+											<img src="images/bestsellers_img_1.jpg" alt="">
+										</a>
+										<a href="#" class="color_dark lh_small d_block m_bottom_10 tr_all">Aliquam congue fermentum nisl</a>
+										<p class="color_dark fs_medium fw_ex_bold fp_price m_bottom_3">$785.00</p>
+										<ul class="rating_list hr_list">
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative active lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+											<li class="relative lh_ex_small">
+												<i class="icon-star-empty-1 color_grey_light_2 tr_all"></i>
+												<i class="icon-star-1 color_yellow tr_all"></i>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+					<!--banners-->
+					<section class="row t_xs_align_c">
+						<div class="col-lg-4 col-md-4 col-sm-4 m_bottom_12 m_xs_bottom_30">
+							<a href="#" class="d_block d_xs_inline_b d_mxs_block"><img src="images/banner_1.jpg" alt=""></a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 m_bottom_12 m_xs_bottom_30">
+							<a href="#" class="d_block d_xs_inline_b d_mxs_block"><img src="images/banner_2.jpg" alt=""></a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 m_bottom_12 m_xs_bottom_0">
+							<a href="#" class="d_block d_xs_inline_b d_mxs_block"><img src="images/banner_3.jpg" alt=""></a>
+						</div>
+					</section>
+				</div>
+			</div>
+		
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+		
+		
+	</body>
+{% endblock content %}

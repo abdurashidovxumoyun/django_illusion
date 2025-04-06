@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		 
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+	
+		<!--layout-->
+		<div class="wide_layout bg_light">
+		
+			<!--page title-->
+			<section class="page_title translucent_bg_color_dark image_fixed image_bg_9 t_align_c relative wrapper">
+				<div class="container">
+					<h1 class="color_light fw_light m_bottom_5">Text Page With Left Sidebar</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_grey_light_3 d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Pages</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li><a class="color_grey_light_3 d_inline_m">Text Page With Left Sidebar</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<div class="section_offset">
+				<div class="container clearfix">
+					<div class="row">
+						<aside class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
+							<div class="m_bottom_40 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Text Widget</h5>
+								<p class="fw_light">Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis.</p>
+							</div>
+							<div class="m_bottom_40 m_xs_bottom_30">
+								<h5 class="fw_light color_dark m_bottom_20">Categories</h5>
+								<ul class="vr_list_type_4 color_dark fw_light">
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Web design
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Web development
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Marketing
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Tips
+										</a>
+									</li>
+									<li class="m_bottom_12">
+										<a href="#" class="color_dark d_inline_b">
+											<span class="icon_wrap_size_0 circle color_grey_light_5 d_block tr_inherit f_left">
+												<i class="icon-angle-right"></i>
+											</span>
+											Resources
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="m_xs_bottom_0">
+								<h5 class="fw_light color_dark m_bottom_20">Tags</h5>
+								<!--tags list-->
+								<ul class="hr_list tags_list">
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">interviews</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">design</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">development</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">marketing</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">press</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">projects</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">resources</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tips</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">tricks</a></li>
+									<li class="m_right_5 m_bottom_5"><a href="#" class="r_corners button_type_2 d_block color_dark color_pink_hover fs_medium">web</a></li>
+								</ul>
+							</div>
+						</aside>
+						<section class="col-lg-9 col-md-9 col-sm-9">
+							<h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Text Page With Left Sidebar</h3>
+							<p class="m_bottom_35 heading_2 t_align_c">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia</p>	
+							<p class="fw_light m_bottom_23">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. </p>
+							<div class="clearfix">
+								<img src="images/sidebar_img_1.jpg" alt="" class="r_corners wrapper f_left m_right_30 m_bottom_10 f_xs_none m_xs_right_0 m_xs_bottom_20">
+								<p class="fw_light m_bottom_12">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum <a href="#" class="color_dark_hover tr_all">elementum velit.</a> Fusce euismod consequat ante. </p>
+								<p class="fw_light m_bottom_12">Lorem ipsum dolor sit amet, consectetuer adipis. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. </p>
+								<p class="fw_light m_bottom_12">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p>
+								<p class="fw_light">Aenean auctor wisi et urna. Aliquam erat volutpat. <a href="#" class="color_dark_hover tr_all">Duis ac turpis.</a> Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+
+		
+	</body>
+{% endblock content %}

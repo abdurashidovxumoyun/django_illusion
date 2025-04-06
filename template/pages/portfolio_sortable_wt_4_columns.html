@@ -1,0 +1,632 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+	<body class="sticky_menu">
+		 
+		<!--side menu-->
+		<button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
+			<i class="icon-menu"></i>
+		</button>
+		
+		<!--layout-->
+		<div class="wide_layout bg_light">
+			
+			<!--page title-->
+			<section class="page_title bg_gradient t_align_c relative wrapper">
+				<div class="container">
+					<h1 class="color_light fw_light m_bottom_5">4 Column Sortable Portfolio Grid With Text</h1>
+					<!--breadcrumbs-->
+					<ul class="hr_list d_inline_m breadcrumbs">
+						<li class="m_right_8 f_xs_none"><a href="index.html" class="color_grey_light_3 d_inline_m m_right_10">Home</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Portfolio</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="m_right_8 f_xs_none"><a href="#" class="color_grey_light_3 d_inline_m m_right_10">Sortable Grid With Text</a><i class="icon-angle-right d_inline_m color_grey_light_3 fs_small"></i></li>
+						<li class="f_xs_none"><a class="color_grey_light_3 d_inline_m">4 columns</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--content-->
+			<div class="section_offset">
+				<div class="container clearfix">
+					<section class="t_align_c">
+						<!--sort-->
+						<ul class="tabs_nav sort type_2 fs_medium hr_list d_inline_b d_xs_block m_bottom_15">
+							<li class="f_xs_none active"><a href="#" data-filter="*" class="color_dark d_block n_sc_hover">All</a></li>
+							<li class="f_xs_none"><a href="#" data-filter=".three_dimensional" class="color_dark d_block n_sc_hover">3D</a></li>
+							<li class="f_xs_none"><a href="#" data-filter=".illustration" class="color_dark d_block n_sc_hover">Illustration</a></li>
+							<li class="f_xs_none"><a href="#" data-filter=".photography" class="color_dark d_block n_sc_hover">Photography</a></li>
+							<li class="f_xs_none"><a href="#" data-filter=".web" class="color_dark d_block n_sc_hover">Web</a></li>
+						</ul>
+					</section>
+					<section class="portfolio_isotope_container four_columns without_text m_xs_bottom_15 m_bottom_35" data-isotope-options='{"itemSelector" : ".portfolio_item","layoutMode" : "fitRows","transitionDuration":"0.7s"}'>
+						<figure class="portfolio_item three_dimensional">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/home_img_5.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Nam elit agna, endrerit sit amet, tincidunt ac</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">35</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/home_img_5.jpg" data-group="portfolio" data-title="Title 1" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item web">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/home_img_6.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Vivamus eget nibh</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-video"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">176</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="http://www.youtube.com/watch?v=SZEflIVnhH8" data-group="portfolio" data-title="Title 2" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-play"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item illustration">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/home_img_7.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Praesent justo dolor, lobortis quis, lobortis</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-music-1"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">14</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/home_img_7.jpg" data-group="portfolio" data-title="Title 3" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item photography">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/home_img_8.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Ut tellus dolor, dapibus eget</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-video"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">56</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="http://vimeo.com/61099540" data-group="portfolio" data-title="Title 4" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-play"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item three_dimensional">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_1.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Sed ut perspiciatis unde omnis iste natus</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">9</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_1.jpg" data-group="portfolio" data-title="Title 5" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item web">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_2.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Donec sagittis euismod</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">60</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_2.jpg" data-group="portfolio" data-title="Title 6" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item illustration">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_3.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Nam elit agna, endrerit sit amet, tincidunt ac</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">20</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_3.jpg" data-group="portfolio" data-title="Title 7" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item photography">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_4.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Vivamus eget nibh</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">10</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_4.jpg" data-group="portfolio" data-title="Title 8" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item three_dimensional">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_5.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Endrerit sit amet, tincidunt ac</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">135</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_5.jpg" data-group="portfolio" data-title="Title 9" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item web">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_6.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Vivamus eget nibh</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-music-1"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">176</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_6.jpg" data-group="portfolio" data-title="Title 10" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10 f_sm_none d_sm_inline_b">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left f_sm_none d_sm_inline_b">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item illustration">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_7.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Justo dolor, lobortis quis, lobortis</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-music-1"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">14</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_7.jpg" data-group="portfolio" data-title="Title 11" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item photography">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_8.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Ut tellus dolor, dapibus eget</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">56</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_8.jpg" data-group="portfolio" data-title="Title 12" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item three_dimensional">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_9.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Unde omnis iste natus</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">9</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_9.jpg" data-group="portfolio" data-title="Title 13" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item web">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_10.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Donec sagittis euismod</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-music-1"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">60</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_10.jpg" data-group="portfolio" data-title="Title 14" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item illustration">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_11.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Nam elit agna, endrerit sit amet, tincidunt ac</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">20</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_11.jpg" data-group="portfolio" data-title="Title 15" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+						<figure class="portfolio_item photography">
+							<!--image-->
+							<div class="popup_wrap relative r_corners wrapper db_xs_centered">
+								<img src="images/portfolio_img_12.jpg" alt="">
+								<div class="project_description type_2 vc_child t_align_c tr_all_long"><div class="d_inline_m">
+									<h4 class="lh_inherit m_xs_bottom_5 d_md_none d_xs_block"><a href="#" class="color_light tr_all not_hover">Nam vivamus eget nibh</a></h4>
+									<!--project's info-->
+									<ul class="dotted_list m_bottom_5 color_light d_md_none d_xs_block">
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_light not_hover fs_small">
+												<i class="icon-picture"></i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m category">
+											<a href="#" class="fs_medium color_light not_hover">
+												<i>Mobile</i></a>, 
+											<a href="#" class="fs_medium color_light not_hover"><i>Technology</i>
+											</a>
+										</li>
+										<li class="m_right_15 relative d_inline_m">
+											<a href="#" class="color_red_hover">
+												<i class="icon-heart-empty-1 m_right_2 color_light tr_all"></i><i class="fs_medium color_light tr_all">10</i>
+											</a>
+										</li>
+									</ul>
+									<div class="d_inline_b clearfix">
+										<a href="images/portfolio_img_12.jpg" data-group="portfolio" data-title="Title 16" class="jackbox icon_wrap_size_3 color_light n_sc_hover d_block circle f_left m_right_10">
+											<i class="icon-plus"></i>
+										</a>
+										<a href="#" class="icon_wrap_size_3 color_light n_sc_hover d_block circle f_left">
+											<i class="icon-link"></i>
+										</a>
+									</div>
+								</div></div>
+							</div>
+						</figure>
+					</section>
+					<div class="clearfix t_align_c">
+						<button id="load_more" class="button_type_2 color_dark r_corners transparent fs_medium bg_color_purple_hover tr_all">Load More</button>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<!--back to top button-->
+		<button id="back_to_top" class="circle icon_wrap_size_2 color_blue_hover color_grey_light_4 tr_all d_md_none">
+			<i class="icon-angle-up fs_large"></i>
+		</button>
+		
+	
+	</body>
+{% endblock content %}
